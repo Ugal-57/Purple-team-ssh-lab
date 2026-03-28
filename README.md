@@ -229,12 +229,17 @@ sudo fail2ban-client status sshd
 
 | Screenshot | Description |
 |---|---|
-| `screenshots/dashboard_overview.png` | Full Splunk dashboard with all 4 panels |
-| `screenshots/alert_triggered.png` | SSH_BruteForce_Detected alert firing |
-| `screenshots/fail2ban_ban.png` | Fail2ban banning Kali IP |
+| `screenshots/Dashboard_1.png` | Splunk dashboard overview — panel 1 and 2 |
+| `screenshots/Dashboard_2.png` | Splunk dashboard overview — panel 3 and 4 |
+| `screenshots/Alert_triggered.png` | SSH_BruteForce_Detected alert firing in Splunk |
 | `screenshots/auth_log_entries.png` | Raw failed password entries in auth.log |
-| `screenshots/hydra_output.png` | Hydra brute force output from Kali |
-
+| `screenshots/baselined_normal_traffic.png` | Baseline normal SSH traffic SPL query results |
+| `screenshots/fail_to_ban.png` | Fail2ban actively banning attacking IP |
+| `screenshots/fail_to_ban_log.png` | Fail2ban log showing ban events in real time |
+| `screenshots/hydra_output.png` | Hydra brute force attack running from Kali |
+| `screenshots/hydra_output_after_ban.png` | Hydra output after Fail2ban blocks the IP |
+| `screenshots/linux_logs.png` | Splunk linux_logs index receiving data |
+| `screenshots/top_attacking_IPs.png` | SPL query showing top attacking source IPs |
 ---
 
 ## 📁 Repository Structure
